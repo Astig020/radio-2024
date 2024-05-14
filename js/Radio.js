@@ -3,7 +3,7 @@ class Radio {
 	constructor(){
 		this.player = new Audio();
 		this.playlist = [
-      {name: 'AstigRadio', slug: 'nightwave', src: 'https://stream.zeno.fm/f4hmmgymtnhvv'},
+      {name: 'AstigRadio', slug: 'nightwave', src: 'https://stream.zeno.fm/5bbzmqbmgxvvv'},
       {name: 'AstigRadio', slug: 'classicrockflorida', src: 'https://stream.zeno.fm/f4hmmgymtnhvv'}
 		];
 		this.player.src = this.playlist[0].src;
